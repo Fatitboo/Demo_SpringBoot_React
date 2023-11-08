@@ -1,0 +1,12 @@
+server:
+  port: 8088
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://21522448:16032003@cluster0.lllrrg7.mongodb.net/employeeDemo
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+
